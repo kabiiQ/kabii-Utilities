@@ -72,6 +72,7 @@ if __name__ == "__main__":
             os.system(f"nvidia-smi -i 0 -lgc {TARGET_CORE}")
             os.system(f"nvidia-smi -i 0 -lmc {TARGET_MEM}")
             os.system(f"powercfg /SETACTIVE {POWER_SAVE}")
+            set_timer = False
             set_plan_name("Power Saver")
         elif select == 3:
             # reset clocks
@@ -79,6 +80,7 @@ if __name__ == "__main__":
             os.system("nvidia-smi -i 0 -rmc")
             print("GPU clocks reset.")
             os.system(f"powercfg /SETACTIVE {HIGH_PERF}")
+            set_timer = True
             set_plan_name("High Performance")
         elif select == 10:
             # list supported gpu clocks
