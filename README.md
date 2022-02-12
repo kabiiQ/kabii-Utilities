@@ -1,5 +1,9 @@
 # kabii-Utilities
 
+### Support the Developer
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E5AF13X)
+
 Relatively simple Python scripts I use to simplify some tasks on my PC. These may or may not be helpful to anyone else. 
 
 # 'clipping' script
